@@ -1,0 +1,16 @@
+footer {
+  margin-top: 15px;
+  background-color: $color2;
+  color: $colorLight;
+  font-weight: normal;
+  padding: 10px;
+  a {
+    font-weight: normal;
+    color: $colorLight;
+    text-decoration: none;
+    border: none;
+  }
+  & :hover {
+    color: $color1;
+  }
+}

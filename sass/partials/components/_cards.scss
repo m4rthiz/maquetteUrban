@@ -1,0 +1,17 @@
+.rowEncart {
+  .encart {
+    background-color: $colorLight;
+    z-index: -10;
+    margin: 30px;
+    padding: 0;
+    .card {
+      border: none;
+      padding: 10px;
+      img {
+        margin: 0 30px;
+      }
+      .card-body {
+      }
+    }
+  }
+}

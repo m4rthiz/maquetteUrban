@@ -1,0 +1,47 @@
+/**
+*************************** Variable *********************
+  */
+@import 'partials/variables';
+/**
+*************************** Media Querie *********************
+ */
+@import 'partials/queries/tablette';
+@import 'partials/queries/smartphone';
+/**
+*************************** Components *********************
+ */
+@import 'partials/components/header';
+@import 'partials/components/cards';
+@import 'partials/components/carousel';
+@import 'partials/components/content';
+@import 'partials/components/biseau';
+@import 'partials/components/partners';
+@import 'partials/components/footer';
+/**
+** node-sass --watch sass/main.scss css/main.css
+*/
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900"');
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: $color2;
+  h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  p {
+    font-size: 0.7em;
+  }
+}

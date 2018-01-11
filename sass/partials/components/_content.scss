@@ -1,0 +1,25 @@
+.content {
+  .rightCol {
+    .newsletter {
+      background-color: $grey1;
+      margin-top: 15px;
+      z-index: -10;
+      height: 215px;
+      p {
+        font-size: 1.2em;
+        margin: 15px;
+      }
+      form {
+        margin: 15px;
+      }
+    }
+    .imgLong {
+      height: 480px;
+      padding-top: 20px;
+    }
+  }
+  .imgContent {
+    width: 100%;
+    height: 240px;
+  }
+}

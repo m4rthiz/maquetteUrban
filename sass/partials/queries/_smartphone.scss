@@ -1,0 +1,48 @@
+@media only screen and (max-device-width: 767px) {
+  header {
+    width: 100vw !important;
+    margin: 0 !important;
+    .leftBtnHeader {
+      display: none;
+    }
+    img {
+      width: 35vw;
+    }
+    canvas {
+      width: 35vw;
+    }
+  }
+  .carousel {
+    margin: 10px !important;
+    .carousel-inner, .carousel-item {
+      img {
+        height: 40vh;
+      }
+    }
+  }
+  .encart {
+    margin: 0 !important;
+  }
+  .content {
+    .leftCol {
+      img {
+        height: 20vh;
+      }
+    }
+    .rightCol {
+      img {
+        height: 20vh;
+      }
+    }
+  }
+  .partners {
+    img {
+      width: 15vw;
+      height: 8vh;
+    }
+  }
+  footer {
+    font-size: 0.6em;
+    width: 100%;
+  }
+}

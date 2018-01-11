@@ -1,0 +1,43 @@
+.orangeEncart {
+  background: $color1;
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+  height: 50px;
+  z-index: 1;
+}
+
+.orangeEncart:before {
+  content: " ";
+  background: $color1;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: -15px;
+  bottom: 0;
+  transform: skewX(-18deg);
+  z-index: -1;
+}
+
+.blackEncart {
+  background: $color2;
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+  height: 50px;
+
+}
+
+.blackEncart:before {
+  content: " ";
+  background: $color2;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: -15px;
+  bottom: 0;
+  z-index: -1;
+  transform: skewX(-18deg);
+}
